@@ -21,7 +21,7 @@
 
             display-name = "Base";
             bindings = <
-&mt TAB ESC  &kp Q  &kp W  &kp F     &kp P  &kp B        &kp J    &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
+&mt TAB ESC  &kp Q  &kp W  &kp F     &kp P  &kp B        &kp J    &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp DELETE
 &kp LCTRL    &kp A  &kp R  &kp S     &kp T  &kp G        &kp M    &kp N  &kp E      &kp I    &kp O          &kp SQT
 &kp LSHFT    &kp Z  &kp X  &kp C     &kp D  &kp V        &kp K    &kp H  &kp COMMA  &kp DOT  &kp FSLH       &kp RSHIFT
                            &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
@@ -37,10 +37,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB     &kp N1        &kp N2        &kp N3      &kp N4        &kp N5          &kp N6   &kp N7    &kp N8    &kp N9  &kp N0     &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP    &none    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none
-&kp LSHFT   &none         &none         &kp C_PREV  &kp C_PP      &kp C_NEXT      &none    &none     &none     &none   &none      &none
-                                        &kp LGUI    &trans        &kp SPACE       &kp RET  &trans    &kp RALT
+&kp TAB     &kp N1        &kp N2        &kp N3      &kp N4        &kp N5          &kp N6    &kp N7  &kp N8    &kp N9     &kp N0         &kp BSPC
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP    &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT  &kp BACKSPACE  &none
+&kp LSHFT   &none         &none         &kp C_PREV  &kp C_PP      &kp C_NEXT      &none     &none   &none     &none      &none          &none
+                                        &kp LGUI    &trans        &kp SPACE       &kp RET   &trans  &kp RALT
             >;
         };
 
